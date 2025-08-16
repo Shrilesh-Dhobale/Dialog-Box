@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modal Dialog</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="./pages/style.css">
+    <script src="./pages/script.js" defer></script>
 </head>
 <body>
     <div class="dialog-container">
         <h1 class="heading">Book My Seat</h1>
         <div class="img-container">
-            <img src="../img/bus-stop.png" alt="Bus Stop" class="img" id="bus-stop">
-            <img src="../img/qr-code.png" alt="QR Code" class="img" id="qr-code">
+            <img src="./img/bus-stop.png" alt="Bus Stop" class="img" id="bus-stop">
+            <img src="./img/qr-code.png" alt="QR Code" class="img" id="qr-code">
         </div>
 
             <button class="btn" id="book-button" onclick="openModal()">Book-Now</button>
@@ -21,7 +21,7 @@
     <div class="overlay">
         <div class="modal">
             <form class="modal-form">
-                <img src="../img/close.png" alt="Close" class="img" id="close-modal" onclick="closeModal()">
+                <img src="./img/close.png" alt="Close" class="img" id="close-modal" onclick="closeModal()">
                 <input type="text" class="input" id="name" placeholder="Enter your name">
                 <input type="text" class="input" id="email" placeholder="Pick-up Location">
                 <input type="text" class="input" id="phone" placeholder="Drop-off Location">
