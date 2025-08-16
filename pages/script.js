@@ -1,4 +1,8 @@
 function openModal() {
-    const overlayElement = document.querySelector('.overlay');
+    const overlayElement = document.getElementById("overlay");
     overlayElement.style.display = 'flex';
+}
+function closeModal() {
+  const overlayElement = document.getElementById("overlay");
+  overlayElement.style.display = "none";
 }
